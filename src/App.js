@@ -1,4 +1,5 @@
 import SearchCom from "./molecules/SearchCom";
+import ListRepo from "./molecules/ListRepo";
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
         </h1>
       </div>
      <SearchCom/>  
+     <ListRepo/>
     </div>
   );
 }
